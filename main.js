@@ -25,7 +25,6 @@ let imgList = sectionList[3];
 
 imgList.addEventListener('click', function(e){
     let element = e.target;
-    console.log(element);
     if(element.localName === 'img'){
         element.style.width = '0';
     }
